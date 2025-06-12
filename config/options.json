@@ -1,0 +1,278 @@
+[
+    {
+        "id": "mua-hang",
+        "name": "Question",
+        "description": "Vào đây để mua",
+        "type": "ticket",
+        "button": {
+            "emoji": "🛒",
+            "label": "Mua-hang",
+            "color": "green"
+        },
+        "ticketAdmins": ["1367666714611023942"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": ["example-question-1","example-question-4"],
+        "channel": {
+            "prefix": "!",
+            "suffix": "user-name",
+            "category": "1367120751328628817",
+            "closedCategory": "1367120751328628817",
+            "backupCategory": "1367120751328628817",
+            "claimedCategory": [
+                { "user": "853261151365627915", "category": "1367120751328628817" }
+            ],
+            "description": "Để tạo một ticket, hã nhấn bên dưới theo yêu cẩu của bạn. Tạo ticket không mục đích ban vv"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "Cảm ơn bạn đã tin tưởng",
+            "embed": {
+                "enabled": false,
+                "title": "Embed Title!",
+                "description": "Description",
+                "customColor": "#9B59B6",
+                 "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "field name",
+                        "value": "field value",
+                        "inline": false
+                    }
+                ],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "Radiant Lotus Store",
+                "description": "Đội ngũ hỗ trợ sẽ giúp bạn sớm nhất có thể!",
+                "customColor": "#ff0000",
+                "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "field name",
+                        "value": "field value",
+                        "inline": false
+                    }
+                ],
+                "timestamp": false
+            },
+            "ping": {
+                "@here": false,
+                "@everyone": false,
+                "custom": ["1367823958514204732"]
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": false,
+            "inactiveHours": 24,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": false,
+            "cooldownMinutes": 10
+        },
+        "limits": {
+            "enabled": false,
+            "globalMaximum": 20,
+            "userMaximum": 3
+        }
+    },
+    {
+        "id": "bao-hanh",
+        "name": "Ticket 2",
+        "description": "Vào đây để được bảo hành",
+        "type": "ticket",
+        "button": {
+            "emoji": "⚠️",
+            "label": "Bao-hanh ",
+            "color": "red"
+        },
+        "ticketAdmins": ["1367666714611023942"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": ["example-question-5"],
+        "channel": {
+            "prefix": "ticket2",
+            "suffix": "user-name",
+            "category": "1367120751328628817",
+            "closedCategory": "1367120751328628817",
+            "backupCategory": "1367120751328628817",
+            "claimedCategory": [
+                { "user": "853261151365627915", "category": "1367120751328628817" }
+            ],
+            "description": "vô đây để mua"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "Thank you for creating a ticket in our server!",
+            "embed": {
+                "enabled": false,
+                "title": "Embed Title!",
+                "description": "Description",
+                "customColor": "#9B59B6",
+                 "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "field name",
+                        "value": "field value",
+                        "inline": false
+                    }
+                ],
+                "timestamp": true
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "Bao-hanh",
+                "description": "Vào đây để được bảo hành",
+                "customColor": "#ff0000",
+                "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "field name",
+                        "value": "field value",
+                        "inline": false
+                    }
+                ],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": ["1373804314333675731"]
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": false,
+            "inactiveHours": 24,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": false,
+            "cooldownMinutes": 10
+        },
+        "limits": {
+            "enabled": false,
+            "globalMaximum": 20,
+            "userMaximum": 3
+        }
+    },
+	{
+        "id": "example-ticket-3",
+        "name": "Ticket 3",
+        "description": "Vào đề liên hệ với Admin",
+        "type": "ticket",
+        "button": {
+            "emoji": "📞",
+            "label": "Liên Hệ",
+            "color": "blue"
+        },
+        "ticketAdmins": ["1367120677974573168"],
+        "readonlyAdmins": [],
+        "allowCreationByBlacklistedUsers": false,
+        "questions": ["example-question-3"],
+        "channel": {
+            "prefix": "ticket3",
+            "suffix": "user-name",
+            "category": "1367120751328628817",
+            "closedCategory": "1367120751328628817",
+            "backupCategory": "1367120751328628817",
+            "claimedCategory": [
+                { "user": "1367120702926360728", "category": "1367120751328628817" }
+            ],
+            "description": "Description for ticket 3"
+        },
+        "dmMessage": {
+            "enabled": false,
+            "text": "Thank you for creating a ticket in our server!",
+            "embed": {
+                "enabled": false,
+                "title": "Embed Title!",
+                "description": "Description",
+                "customColor": "#9B59B6",
+                 "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "field name",
+                        "value": "field value",
+                        "inline": false
+                    }
+                ],
+                "timestamp": false
+            }
+        },
+        "ticketMessage": {
+            "enabled": true,
+            "text": "",
+            "embed": {
+                "enabled": true,
+                "title": "xx",
+                "description": "ss",
+                "customColor": "#ff0000",
+                "image": "",
+                "thumbnail": "",
+                "fields": [
+                    {
+                        "name": "cc",
+                        "value": "cc",
+                        "inline": false
+                    }
+                ],
+                "timestamp": true
+            },
+            "ping": {
+                "@here": true,
+                "@everyone": false,
+                "custom": ["1373804314333675731"]
+            }
+        },
+        "autoclose": {
+            "enableInactiveHours": false,
+            "inactiveHours": 24,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "autodelete": {
+            "enableInactiveDays": false,
+            "inactiveDays": 7,
+            "enableUserLeave": false,
+            "disableOnClaim": false
+        },
+        "cooldown": {
+            "enabled": false,
+            "cooldownMinutes": 10
+        },
+        "limits": {
+            "enabled": false,
+            "globalMaximum": 20,
+            "userMaximum": 3
+        }
+    }
+]

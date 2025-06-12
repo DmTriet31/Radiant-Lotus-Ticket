@@ -1,0 +1,50 @@
+[
+    {
+        "id": "example-question-1",
+        "name": "Bạn muốn mua gì",
+        "type": "short",
+        "required": true,
+        "placeholder": "Viết vào đây",
+        "length": {
+            "enabled": false,
+            "min": 0,
+            "max": 1000
+        }
+    },
+    {
+        "id": "example-question-3",
+        "name": "Bạn Muốn nói gì với server?",
+        "type": "short",
+        "required": true,
+        "placeholder": "Viết vào đây",
+        "length": {
+            "enabled": false,
+            "min": 0,
+            "max": 1000
+        }
+    },
+    {
+        "id": "example-question-4",
+        "name": "Giao Dịch Bằng gì?",
+        "type": "short",
+        "required": true,
+        "placeholder": "Viết vào đây",
+        "length": {
+            "enabled": false,
+            "min": 0,
+            "max": 1000
+        }
+    },
+    {
+        "id": "example-question-5",
+        "name": "Bạn cần bảo hành gì?",
+        "type": "short",
+        "required": true,
+        "placeholder": "Viết vào đây",
+        "length": {
+            "enabled": false,
+            "min": 0,
+            "max": 1000
+        }
+    }
+]

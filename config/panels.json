@@ -1,0 +1,39 @@
+[
+    {
+        "id":"example-embed",
+        "name":"Embed",
+        "dropdown":false,
+        "options":["mua-hang","bao-hanh","example-ticket-3"],
+
+        "text":"",
+        "embed":{
+            "enabled":true,
+            "title":"Radiant Lotus Store",
+            "description":" bấm vào nút phía dưới để mở Ticket",
+
+            "customColor":"#f8ab00",
+            "url":"https://www.instagram.com/radiant.lotus12/)",
+
+            "image":"https://cdn.discordapp.com/attachments/1367522678420013146/1367522834787729548/standard.gif?ex=6814e463&is=681392e3&hm=851175dde7a8e999bfe5a37f0eda1ef9934b76b49e267264c1df6ce6b7d83be6&",
+            "thumbnail":"https://cdn.discordapp.com/attachments/1367522678420013146/1367522900445495446/standard_1.gif?ex=6814e472&is=681392f2&hm=5e8a8d444f74a6fea7bdda586a483f2e2a2278e3f55ed4a1c30c92366b0a7570&",
+
+            "footer":"Radiant Lotus Store",
+            "fields":[
+                {"name":"field name","value":"field value","inline":false}
+            ],
+            "timestamp":true
+        },
+        "settings":{
+            "dropdownPlaceholder":"Create a ticket!",
+
+            "enableMaxTicketsWarningInText": false,
+            "enableMaxTicketsWarningInEmbed": false,
+
+            "describeOptionsLayout":"normal",
+            "describeOptionsCustomTitle":"",
+            "describeOptionsInText":false,
+            "describeOptionsInEmbedFields":false,
+            "describeOptionsInEmbedDescription":false
+        }
+    }
+]
