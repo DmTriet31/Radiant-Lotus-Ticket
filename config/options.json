@@ -9,18 +9,18 @@
             "label": "Mua-hang",
             "color": "green"
         },
-        "ticketAdmins": ["1367666714611023942"],
+        "ticketAdmins": ["1376211232411095061"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": ["example-question-1","example-question-4"],
         "channel": {
             "prefix": "!",
             "suffix": "user-name",
-            "category": "1367120751328628817",
-            "closedCategory": "1367120751328628817",
-            "backupCategory": "1367120751328628817",
+            "category": "1376211320554393610",
+            "closedCategory": "1376211320554393610",
+            "backupCategory": "1376211320554393610",
             "claimedCategory": [
-                { "user": "853261151365627915", "category": "1367120751328628817" }
+                { "user": "853261151365627915", "category": "1376211320554393610" }
             ],
             "description": "Để tạo một ticket, hã nhấn bên dưới theo yêu cẩu của bạn. Tạo ticket không mục đích ban vv"
         },
@@ -101,18 +101,18 @@
             "label": "Bao-hanh ",
             "color": "red"
         },
-        "ticketAdmins": ["1367666714611023942"],
+        "ticketAdmins": ["1376211232411095061"],
         "readonlyAdmins": [],
         "allowCreationByBlacklistedUsers": false,
         "questions": ["example-question-5"],
         "channel": {
             "prefix": "ticket2",
             "suffix": "user-name",
-            "category": "1367120751328628817",
-            "closedCategory": "1367120751328628817",
-            "backupCategory": "1367120751328628817",
+            "category": "1376211320554393610",
+            "closedCategory": "1376211320554393610",
+            "backupCategory": "1376211320554393610",
             "claimedCategory": [
-                { "user": "853261151365627915", "category": "1367120751328628817" }
+                { "user": "853261151365627915", "category": "1376211320554393610" }
             ],
             "description": "vô đây để mua"
         },
@@ -158,7 +158,7 @@
             "ping": {
                 "@here": true,
                 "@everyone": false,
-                "custom": ["1373804314333675731"]
+                "custom": ["1367823958514204732"]
             }
         },
         "autoclose": {
@@ -200,11 +200,11 @@
         "channel": {
             "prefix": "ticket3",
             "suffix": "user-name",
-            "category": "1367120751328628817",
-            "closedCategory": "1367120751328628817",
-            "backupCategory": "1367120751328628817",
+            "category": "1376211320554393610",
+            "closedCategory": "1376211320554393610",
+            "backupCategory": "1376211320554393610",
             "claimedCategory": [
-                { "user": "1367120702926360728", "category": "1367120751328628817" }
+                { "user": "853261151365627915", "category": "1376211320554393610" }
             ],
             "description": "Description for ticket 3"
         },
